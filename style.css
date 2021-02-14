@@ -1,0 +1,47 @@
+.flower-box{
+    width: 100px;
+    margin: 100px;
+}
+#ellipse path{
+    fill: rgba(255, 255, 136);
+    fill: rgba(255, 102, 102);
+    fill: rgba(255, 92, 10);
+    fill: rgba(51, 255, 51);
+    fill: rgba(238, 238, 238);
+    fill: rgba(255, 153, 255);
+    fill: rgba(179, 255, 102);
+    fill: rgba(102, 102, 255);
+    fill: rgba(240, 163, 10);
+    fill: rgba(102, 178, 255);
+    fill: rgba(102, 255, 179);
+    fill: rgba(102, 255, 255);
+    fill: rgba(205, 235, 139);
+    fill: rgba(255, 204, 153);
+}
+.flower-box{
+    animation: flower-rotate 5s infinite linear;
+}
+@keyframes flower-rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        fill: rgba(255, 255, 136);
+        fill: rgba(255, 102, 102);
+        fill: rgba(255, 92, 10);
+        fill: rgba(51, 255, 51);
+        fill: rgba(238, 238, 238);
+        fill: rgba(255, 153, 255);
+        fill: rgba(179, 255, 102);
+        fill: rgba(102, 102, 255);
+        fill: rgba(240, 163, 10);
+        fill: rgba(102, 178, 255);
+        fill: rgba(102, 255, 179);
+        fill: rgba(102, 255, 255);
+        fill: rgba(205, 235, 139);
+        fill: rgba(255, 204, 153);
+    }
+    100%{
+        transform: rotate(27.5deg);
+    }
+}
